@@ -1,3 +1,6 @@
+run:
+	go run main.go
+
 hls:
 	ffmpeg -v verbose \
 		-re \
