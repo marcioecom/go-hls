@@ -4,7 +4,7 @@ run:
 hls:
 	ffmpeg -v verbose \
 		-re \
-		-i videos/video.mp4 \
+		-i videos/*.mp4 \
 		-c:v libx264 \
 		-b:v 5000k \
 		-f hls \
